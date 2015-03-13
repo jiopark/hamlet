@@ -11,13 +11,13 @@ h1{
 h2{
 	margin-right: auto;
 	margin-left: auto;
-	padding: 15px;
-	font-size: 22px;
-	background-color: rgba(0,0,0,.8);
+	padding: 5px;
+	font-size: 18px;
+	background-color: rgba(0,0,0,.45);
 	border-style: solid;
 	border-color: white;
 	border-width: 1.3px;
-	width: 160px;
+	width: 290px;
 	height: 20px;
 }
 body{
@@ -84,17 +84,20 @@ p{
 	max-width: 650px;
 }
 #menu{
-	height: 440px;
+	height: 460px;
 	width: 13000;
-	overflow: scroll;
-	background-color: rgba(0,0,0,.8);
-	padding: 10px;
-	padding-top: 15px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	background-color: rgba(0,0,0,.9);
+	margin: 10px;
+	margin-top: 15px;
 }
 article{
-	max-height: 440px;
+	height: 460px;
 	float: left;
 	width: 14000px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 img{
 	padding-right: 20px;

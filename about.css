@@ -37,6 +37,12 @@ body{
 nav{
 	font-size: 22px;
 }
+p a{
+	color: black;
+}
+p a:visited a:link{
+	color: black;
+}
 a{
 	color: white;
 	text-decoration: none;
